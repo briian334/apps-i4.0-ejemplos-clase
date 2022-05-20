@@ -1,0 +1,63 @@
+#formulario{
+ background-color: aqua;    
+}
+body{
+    background-image: url(350z.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    border: solid 2px rgba(255, 79, 79, 0.555);
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(27, 7, 7, 0.5);
+}
+header h1{
+    color: whitesmoke ;
+    font-size: 4em;
+    
+}
+header h2 {
+    color: whitesmoke;
+}
+.Central{
+background-color: rgba(80, 150, 200, .5);
+border: solid 2px yellow;
+box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.6);
+margin: 19px;
+border-radius: 10px;
+}
+
+#producto{
+background-color: rgba(80, 150, 200, .5);
+color: aliceblue;
+text-align: center;
+border: solid 2px yellow;
+box-shadow: 2px 2px 2px 1px  #ffffff00;
+border-radius: 10px;
+margin: 19px;
+display: inline-block;
+padding-left: 9px;
+padding-right: 9px;
+width: 625px;
+height: 525px;
+}
+
+#producto img{
+    height: 320px;
+    border-radius: 30px;
+}
+
+footer{
+    background-color: #090909;
+    height: 180px;
+    text-align: center;
+}
+
+footer a{
+    color: aliceblue;
+    font-size: 30px;
+}

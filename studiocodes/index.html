@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type=" " href="style.css">
+    <script src="./script.js"></script>
+</head>
+<body id="bod" onload="color()">
+    <header>
+        <h1>Encabezado de primer nivel</h1>
+        <h2>Encabezado de segundo nivel</h2>
+    </header>
+
+    <div id="formulario">
+    <label>Introduce tu nombre</label>
+    <input type="text" id="name">
+    <button onclick="sub()">Login</button>
+    </div>
+
+    <div class="Central">
+        <h3>Encabezado de tercer nivel</h3>
+        <h4>Encabezado de cuarto nivel</h4>
+        <p>La piraña </p>
+        <ol> <!-- orden en lista -->
+         <li>Arnold</li>
+         <li>Huicho</li>
+         <li>Ashley</li>   
+        </ol>
+        <ul><!-- desorden en lista -->
+            <li>Arnold</li>
+            <li>Huicho</li>
+            <li>Ashley</li>   
+        </ul>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Ramses</td>
+                <td>De la India</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="producto">
+        <h3 id="titulo">Gorra</h3>
+        <img src="./cap.png" onmouseover="letras()">
+    </div>
+
+    <div id="producto">
+        <h3 id="titulo">Gorra</h3>
+        <img src="./cap.png" onmouseenter="titulos()" onmouseleave="titulos2()">
+    </div>
+        
+    <footer>
+        <a href="http://www.google.com">Link</a>   
+    </footer>  
+
+    </div>
+</body>
+</html>
