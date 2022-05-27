@@ -8,11 +8,12 @@ body{
     background-attachment: fixed;
     margin: 0%;
     padding: 0%;
+    align-items: center;
 }
 header{
     border: solid 2px rgba(255, 79, 79, 0.555);
-    margin: 10px;
-    padding: 10px;
+    margin: 0%;
+    padding: 0%;
     background-color: rgba(27, 7, 7, 0.5);
 }
 header h1{
@@ -60,4 +61,11 @@ footer{
 footer a{
     color: aliceblue;
     font-size: 30px;
+}
+.login{
+    padding-left: 28px;
+}
+*{
+    margin: 0%;
+    width: auto;
 }
